@@ -1,4 +1,77 @@
+header {
+    background: url(../img/pattern.png);
+    background-color: skyblue;
+}
 
-h2 {
-    color: brown;
+h2{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.subscript-author{
+    margin: 0;
+}
+.subscript-date{
+    margin-top: 0;
+    font-weight: 200;
+    font-size: small;
+}
+
+.autore {
+    color: skyblue;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.photo {
+    width: 49%;
+    max-height: 500px;
+}
+
+.description-photo {
+    margin: 0;
+    font-size: 14px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+.item{
+    width: 35%;
+    text-align: left;
+}
+.description{
+    width: 100%;
+    text-align: left;
+}
+
+th {
+    background-color: cornflowerblue;
+}
+
+.sky-table {
+    background-color: skyblue;
+}
+
+em{
+    background-color: yellow;
+    font-style: normal;
+}
+
+#monitor {
+    background: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    min-height: 200px;
+    color: white;
+}
+
+#graph {
+    background: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    min-height: 200px;
+    color: white;
 }
