@@ -1,13 +1,29 @@
-header {
+html, body{
+    margin: 0;
+    padding: 1px;
+}
+
+header {    
     background: url(../img/pattern.png);
+    background-repeat: repeat;
+    background-size: auto;
     background-color: skyblue;
+    display: flex;
+    align-items: center;
+    height: 100;
+}
+
+#logo{
+    width: 250px;
+    height: auto;
+    margin: 10px;
 }
 
 h2{
+    margin-top: 0;
     padding-bottom: 0;
     margin-bottom: 0;
-    font-size: 64px;
-    font-weight: 500;
+    font-size: 48px;
 }
 
 .subscript-author{
@@ -25,9 +41,16 @@ h2{
     text-decoration: none;
 }
 
+#photo-container {
+    display: flex; 
+    gap: 10px;  
+    width: 100%;  
+}
+
 .photo {
-    width: 49%;
-    max-height: 500px;
+    max-width: 50%; 
+    height: auto;  
+    object-fit: cover;  
 }
 
 .description-photo {
@@ -66,6 +89,7 @@ em{
     background: url(../img/monitor.jpg);
     background-repeat: no-repeat;
     min-height: 200px;
+    min-width: auto;
     color: white;
 }
 
@@ -73,5 +97,6 @@ em{
     background: url(../img/graph.jpg);
     background-repeat: no-repeat;
     min-height: 200px;
+    min-width: auto;
     color: white;
 }
